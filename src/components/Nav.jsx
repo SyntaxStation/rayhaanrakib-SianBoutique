@@ -61,7 +61,7 @@ const Nav = () => {
 
     return (
         <div>
-            <div className={scrollY ? "bg-primary hidden lg:block py-2 opacity-0 transition-all duration-700" : "bg-primary hidden lg:block py-2"}>
+            <div className={scrollY ? "bg-primary hidden lg:block py-2 opacity-0 transition-all duration-1000" : "bg-primary hidden lg:block py-2"}>
                 <div className="container mx-auto">
                     <div className='flex justify-between items-center min-h-10 px-6'>
                         <div className='flex items-center w-48 justify-between'>
@@ -79,7 +79,7 @@ const Nav = () => {
                 </div>
             </div>
 
-            <div className={scrollY ? "bg-white/90 backdrop-blur-md shadow-md fixed top-0 left-0 right-0  z-50 transition-all duration-700" : "z-50 py-1 bg-white"}>
+            <div className={scrollY ? "bg-white/90 backdrop-blur-md shadow-md fixed top-0 left-0 right-0 py-0 z-50 transition-all duration-1000" : "z-50 py-2 bg-white"}>
                 <div className="navbar container mx-auto">
                     <div className="navbar-start">
                         <div className="drawer z-40">
