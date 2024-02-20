@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
     return (
-        <div className='scroll-smooth'>
+        <div className='scroll-smooth select-none'>
             <Nav></Nav>
             <Outlet />
             <Footer></Footer>

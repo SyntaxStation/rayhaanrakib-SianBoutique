@@ -79,7 +79,7 @@ const Nav = () => {
                 </div>
             </div>
 
-            <div className={scrollY ? "bg-white/70 backdrop-blur-md shadow-md fixed top-0 left-0 right-0  z-50 transition-all duration-700" : "z-50 py-1 bg-white"}>
+            <div className={scrollY ? "bg-white/90 backdrop-blur-md shadow-md fixed top-0 left-0 right-0  z-50 transition-all duration-700" : "z-50 py-1 bg-white"}>
                 <div className="navbar container mx-auto">
                     <div className="navbar-start">
                         <div className="drawer z-40">
@@ -92,7 +92,7 @@ const Nav = () => {
                                         </label>
                                     </div>
 
-                                    <a className="w-40"><img src="/Si’an Boutique.png" alt="" /></a>
+                                    <a className="w-40" href='/'><img src="/Si’an Boutique.png" alt="" /></a>
 
                                 </div>
                             </div>
