@@ -1,5 +1,6 @@
 import React, { useEffect } from "react"
 import Glide from "@glidejs/glide"
+import Heading from './../../shared/Heading';
 
 function CarouselControlsInside() {
     useEffect(() => {
@@ -19,7 +20,7 @@ function CarouselControlsInside() {
                     perView: 3,
                 },
                 640: {
-                    perView: 2,
+                    perView: 1,
                 },
             },
         }).mount()
@@ -34,35 +35,40 @@ function CarouselControlsInside() {
             <div className="glide-01 relative w-full px-20">
                 <div className="overflow-hidden" data-glide-el="track">
                     <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
-                        <li>
+                        <li className="relative flex flex-col items-center group h-[250px] overflow-hidden text-center">
                             <img
                                 src="https://razziwp.com/fashion/wp-content/uploads/sites/2/2020/10/m52-370x444.webp"
-                                className="m-auto h-[250px] object-cover rounded-md shadow-md w-full max-w-full"
+                                className="m-auto h-[250px] object-cover group-hover:scale-125 transition-all duration-500 rounded-md shadow-md w-[300px]"
                             />
+                            <h2 className="absolute bottom-2 text-primary text-sm md:text-base font-bold bg-black/40 group-hover:bg-black/90 rounded px-3 py-2">Men's Tshirt</h2>
                         </li>
-                        <li>
+                        <li className="relative flex flex-col items-center group h-[250px] overflow-hidden">
                             <img
                                 src="https://razziwp.com/fashion/wp-content/uploads/sites/2/2020/10/w122-370x444.webp"
-                                className="m-auto h-[250px] object-cover rounded-md shadow-md w-full max-w-full"
+                                className="m-auto h-[250px] object-cover group-hover:scale-125 transition-all duration-500 rounded-md shadow-md w-[300px]"
                             />
+                            <h2 className="absolute bottom-2 text-primary text-sm md:text-base font-bold bg-black/40 group-hover:bg-black/90 rounded px-3 py-2">Women's</h2>
                         </li>
-                        <li>
+                        <li className="relative flex flex-col items-center group h-[250px] overflow-hidden">
                             <img
                                 src="https://razziwp.com/fashion/wp-content/uploads/sites/2/2020/10/m42-370x444.webp"
-                                className="m-auto h-[250px] object-cover rounded-md shadow-md w-full max-w-full"
+                                className="m-auto h-[250px] object-cover group-hover:scale-125 transition-all duration-500 rounded-md shadow-md w-[300px]"
                             />
+                            <h2 className="absolute bottom-2 text-primary text-sm md:text-base font-bold bg-black/40 group-hover:bg-black/90 rounded px-3 py-2">Men's Regular</h2>
                         </li>
-                        <li>
+                        <li className="relative flex flex-col items-center group h-[250px] overflow-hidden">
                             <img
                                 src="https://razziwp.com/fashion/wp-content/uploads/sites/2/2020/12/k52-370x444.webp"
-                                className="m-auto h-[250px] object-cover rounded-md shadow-md w-full max-w-full"
+                                className="m-auto h-[250px] object-cover group-hover:scale-125 transition-all duration-500 rounded-md shadow-md w-[300px]"
                             />
+                            <h2 className="absolute bottom-2 text-primary text-sm md:text-base font-bold bg-black/40 group-hover:bg-black/90 rounded px-3 py-2">Kid's</h2>
                         </li>
-                        <li>
+                        <li className="relative flex flex-col items-center group h-[250px] overflow-hidden">
                             <img
                                 src="https://razziwp.com/fashion/wp-content/uploads/sites/2/2020/12/w72-370x444.webp"
-                                className="m-auto h-[250px] object-cover rounded-md shadow-md w-full max-w-full"
+                                className="m-auto h-[250px] object-cover group-hover:scale-125 transition-all duration-500 rounded-md shadow-md w-[300px]"
                             />
+                            <h2 className="absolute bottom-2 text-primary text-sm md:text-base font-bold bg-black/40 group-hover:bg-black/90 rounded px-3 py-2">Women's Tshirt</h2>
                         </li>
                     </ul>
                 </div>
@@ -95,11 +101,8 @@ function CarouselControlsInside() {
 
 const Category = () => {
     return (
-        <div className="container mx-auto py-24">
-            <div className="my-10 text-center">
-                <h2 className="text-3xl lg:text-5xl font-medium text-secondary">All Categories</h2>
-                <p className="my-5">Explore Endless Styles: From Casual to Couture, We've Got You Covered!</p>
-            </div>
+        <div className="container mx-auto">
+            <Heading text="All Categories" tagline="Explore Endless Styles: From Casual to Couture, We've Got You Covered!"></Heading>
             <CarouselControlsInside></CarouselControlsInside>
         </div>
     );
