@@ -17,7 +17,7 @@ function CarouselControlsInside() {
             },
             breakpoints: {
                 1024: {
-                    perView: 3,
+                    perView: 2,
                 },
                 640: {
                     perView: 1,
