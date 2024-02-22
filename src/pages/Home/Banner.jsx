@@ -8,10 +8,7 @@ import SecondaryButton from './../../shared/SecondaryButton';
 const Banner = () => {
     return (
         <div>
-            {/* <p className="bg-black py-4 text-primary text-center">GET 20% SALE WITH COUPON CODE CGBNJKI25</p> */}
-            <div className=''>
                 <CarouselIndicatorsInside></CarouselIndicatorsInside>
-            </div>
             <div className="container mx-auto my-8 px-6 lg:px-0">
                 <div className="flex flex-col lg:flex-row gap-5 justify-items-center items-center justify-between">
                     <div data-aos="fade-up" data-aos-duration="500" className="one relative overflow-hidden rounded-md shadow-md w-full lg:w-1/3 h-[250px] group">
