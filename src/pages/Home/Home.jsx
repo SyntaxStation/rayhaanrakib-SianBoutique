@@ -17,6 +17,10 @@ const Home = () => {
             <div data-aos="fade-up" className='py-16 lg:py-20'>
                 <Category></Category>
             </div>
+            <div data-aos="fade-up" className='py-10 lg:py-16'>
+                <Heading text="Shop" tagline="Explore Endless Wardrobe Options: Your One-Stop Fashion Destination!"></Heading>
+                <Shop></Shop>
+            </div>
             <div data-aos="fade-up" className='py-16 lg:py-20'>
                 <Heading text="Featured Products" tagline="Spotlight on Style: Elevate Your Look with Our Trending Must-Haves!"></Heading>
                 <Featured></Featured>
@@ -24,10 +28,6 @@ const Home = () => {
             <div data-aos="fade-up" className='py-10 lg:py-16'>
                 <Heading text="New Arrivals" tagline="Fresh Finds Await: Be the First to Own Our Latest Fashion Forward Pieces!"></Heading>
                 <NewArrivals></NewArrivals>
-            </div>
-            <div data-aos="fade-up" className='py-10 lg:py-16'>
-                <Heading text="Shop" tagline="Explore Endless Wardrobe Options: Your One-Stop Fashion Destination!"></Heading>
-                <Shop></Shop>
             </div>
             <div data-aos="fade-up" className='py-10 lg:py-16'>
                 <Heading text="Top Sale" tagline="Score Big on Style: Grab Unbeatable Deals Before They're Gone!"></Heading>

@@ -1,4 +1,4 @@
-# Si'an Boutique - Your Clothes Store
+# Si'an Boutique - Your Clothing Store
 
 - Product Management
 - User Authentication
