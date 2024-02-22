@@ -14,7 +14,7 @@ const NewArrivals = () => {
                 setIsLoading(false);
             })
     }, [url])
-    
+
     return (
         <div className='container mx-auto px-10 lg:px-0'>
             {
