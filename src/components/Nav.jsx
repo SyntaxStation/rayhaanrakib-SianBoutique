@@ -178,14 +178,15 @@ const Nav = () => {
                                                 {/*  <!-- Action base sized with lead icon buttons  --> */}
                                                 <div className="flex justify-end gap-2 p-6 pt-0">
 
-                                                    <button onClick={handleLogout} className="inline-flex h-10 flex-1 items-center justify-center gap-2 justify-self-center whitespace-nowrap rounded bg-accent px-5 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-black hover:text-white focus:bg-emerald-200 focus:text-black focus-visible:outline-none disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-100 disabled:text-emerald-400 disabled:shadow-none">
-                                                        <span className="order-2">Add Product</span>
-                                                    </button>
                                                     <a href="/add">
-                                                        <button className="inline-flex h-10 flex-1 items-center justify-center gap-2 whitespace-nowrap rounded bg-primaryV px-5 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-black focus:bg-black focus-visible:outline-none disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
-                                                            <span className="order-2">Log Out</span>
+                                                        <button className="inline-flex h-10 flex-1 items-center justify-center gap-2 justify-self-center whitespace-nowrap rounded bg-accent px-5 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-black hover:text-white">
+                                                            <span className="order-2">Add Product</span>
                                                         </button>
                                                     </a>
+
+                                                    <button onClick={handleLogout} className="inline-flex h-10 flex-1 items-center justify-center gap-2 whitespace-nowrap rounded bg-primaryV px-5 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-black focus:bg-black focus-visible:outline-none disabled:cursor-not-allowed disabled:border-emerald-300 disabled:bg-emerald-300 disabled:shadow-none">
+                                                        <span className="order-2">Log Out</span>
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>

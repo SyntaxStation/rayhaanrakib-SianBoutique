@@ -22,7 +22,7 @@ const ShopPage = () => {
                 {
                     isLoading ? (<div className='w-full flex justify-center items-center justify-items-center'><img className='w-80' src="https://i.ibb.co/TqhV9yt/loading.gif" alt="" /></div>)
                         :
-                        (<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-self-center justify-between items-center gap-5 lg:gap-10'>
+                        (<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between items-center gap-5 lg:gap-10'>
                             {
                                 products?.map(product => <ProductCard key={product._id} product={product} ></ProductCard>)
                             }
