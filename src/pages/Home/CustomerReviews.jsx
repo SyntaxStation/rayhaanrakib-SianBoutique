@@ -49,14 +49,11 @@ export default CustomerReviews;
 function CarouselTestimonial() {
     return (
         <>
-            {/*<!-- Component: Testimonial carousel --> */}
             <div className="glide-08 relative w-full">
-                {/*    <!-- Slides --> */}
                 <div className="overflow-hidden" data-glide-el="track">
                     <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 pb-12">
                         <li>
                             <div className="h-full w-full">
-                                {/*                    <!-- Start Testimonial --> */}
                                 <div className="h-full overflow-hidden rounded bg-white text-slate-500 shadow-2xl shadow-slate-200">
                                     <div className="relative p-6">
                                         <figure className="relative z-10">

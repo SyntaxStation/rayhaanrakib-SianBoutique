@@ -15,7 +15,7 @@ const Login = () => {
     return (
         <div className='min-h-screen container mx-auto'>
             <div className='flex flex-col items-center justify-center h-96 '>
-                <h2 className='text-gray'>Sign in via email & password coming soon...</h2>
+                <h2 className='text-gray'>Sign in via email & password method coming soon...</h2>
                 <div class="mt-8 grid">
                     <button onClick={handleGoogle} type="button" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-[#50577A] shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-primary transition-all text-sm sm:p-4">
                         <svg class="w-4 h-auto" width="46" height="47" viewBox="0 0 46 47" fill="none">

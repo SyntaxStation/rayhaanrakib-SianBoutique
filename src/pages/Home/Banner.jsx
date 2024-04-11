@@ -80,6 +80,19 @@ function CarouselIndicatorsInside() {
                 {/*    <!-- Slides --> */}
                 <div className="overflow-hidden" data-glide-el="track">
                     <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
+                       
+                        <li className="relative flex flex-col justify-center items-center">
+                            <img
+                                src="https://i.ibb.co/frwF0zd/pexels-ksenia-chernaya-3965545.jpg"
+                                className="m-auto h-[600px] object-cover w-full max-w-full"
+                            />
+                            <div className="absolute bg-primary/80 shadow-md px-8 py-6 md:px-16 md:py-8 lg:px-20 lg:py-12 rounded-lg text-center group">
+                                <h2 className="text-xl lg:text-3xl font-semibold tracking-widest my-3 text-secondary"><Fade cascade damping={0.1}>Summer Collection</Fade></h2>
+                                <h3 className="text-base lg:text-lg capitalize font-medium my-5 text-gray">So called give, one whales tree seas dry <br /> place own day, winged tree created spirit.</h3>
+                                <PrimaryButton text="view details"></PrimaryButton>
+                            </div>
+
+                        </li>
                         <li className="relative flex flex-col justify-center">
                             <img
                                 src="https://i.ibb.co/sVQMSdp/pexels-tobi-713070.jpg"
@@ -90,18 +103,6 @@ function CarouselIndicatorsInside() {
                                 <span className="text-5xl lg:text-7xl font-extrabold text-accent">70%</span>
                                 <h3 className="text-base lg:text-xl capitalize font-semibold my-3 text-secondary">with <span className="text-primaryV">promo</span> code CNSH32W</h3>
                                 <PrimaryButton text="shop now"></PrimaryButton>
-                            </div>
-
-                        </li>
-                        <li className="relative flex flex-col justify-center items-center">
-                            <img
-                                src="https://i.ibb.co/frwF0zd/pexels-ksenia-chernaya-3965545.jpg"
-                                className="m-auto h-[600px] object-cover w-full max-w-full"
-                            />
-                            <div className="absolute bg-primary/80 shadow-md px-8 py-6 md:px-16 md:py-8 lg:px-20 lg:py-12 rounded-lg text-center group">
-                                <h2 className="text-xl lg:text-3xl font-semibold tracking-widest my-3 text-secondary"><Fade cascade damping={0.1}>Summer Collection</Fade></h2>
-                                <h3 className="text-base lg:text-lg capitalize font-medium my-5 text-gray">So called give, one whales tree seas dry <br /> place own day, winged tree created spirit.</h3>
-                                <PrimaryButton text="view details"></PrimaryButton>
                             </div>
 
                         </li>
